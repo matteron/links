@@ -1,0 +1,20 @@
+{
+  "name": "links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node compile",
+    "start": "http-server \"$(node path)\"",
+    "parse": "node parse",
+    "add": "node input"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "prompt": "^1.1.0"
+  }
+}

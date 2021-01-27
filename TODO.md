@@ -1,0 +1,1 @@
+- Automatically add title based on link if name is left blank
