@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node compile",
-    "start": "http-server \"$(node path)\"",
+    "start": "node compile; http-server \"$(node config path)\"",
     "parse": "node parse",
     "add": "node input"
   },
