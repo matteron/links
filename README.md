@@ -2,6 +2,8 @@
 
 Going for a barebones link manager.
 
+Done in two hours, hopefully I never have to touch the code again.
+
 Links stored as json.
 
 Compiles a basic html page which displays the list, with accessory pages for tags.
