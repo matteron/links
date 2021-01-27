@@ -22,10 +22,6 @@ const makeTag = (tag) => makeListItem(tag, 'tag/' + tag);
 const makeTags = (data) => makeList(data, makeTag);
 
 const makeNavItem = (url) => makeListItem(url, url);
-// const make = {
-// 	link: (data) => makeListItem(data.name, data.link),
-// 	links: (data) => make
-// }
 
 const makePage = (title, list) => 
 `
