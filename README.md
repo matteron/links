@@ -14,3 +14,7 @@ Compiles a basic html page which displays the list, with accessory pages for tag
 |compile.js | Compiles the pages. |
 |parse.js | Bulk import markdown links found in `input.md`. |
 |config.js | Config. |
+
+## FAQ
+Should I use it?
+> No, of course not.
